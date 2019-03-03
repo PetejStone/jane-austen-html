@@ -1,0 +1,20 @@
+.works img,
+.overlay img {
+  height: 250px;
+  width: 250px;
+  margin: 3em 1em 5px 1em;
+  box-shadow: -3px 0px 10px #7F4241;
+  cursor: pointer;
+}
+
+.about img  {
+  width: 228px;
+  height: 294px;
+  box-shadow: -3px 0px 10px #7F4241;
+  border-radius: 50%;
+  @include mq(medium) {
+    width: 342px;
+    height: 442px;
+  }
+
+}

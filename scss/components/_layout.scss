@@ -1,0 +1,94 @@
+
+body,
+html {
+  width: 100%;
+  background-color: $main-color;
+  @include flexy(flex, column, null);
+
+}
+
+
+// main {
+//   background-color: $main-color;
+//   height: fit-content;
+//   @include flexy(flex, row, null, space-around);
+//   z-index: 0;
+// }
+
+.book {
+  p {
+    margin: 5px 0px;
+    text-align: center;
+  }
+}
+
+
+.about {
+  width: 90%;
+  max-width: 1000px;
+  margin: 0 auto;
+  margin-bottom: 3em;
+  @include flexy(flex, column, null, center);
+  p {
+    text-align: center;
+  }
+  img {
+    margin: 0 auto;
+  }
+}
+
+.home {
+  @include flexy(flex, column, null, center);
+  width: 100%;
+  flex-grow: 1;
+  h2 {
+    padding-bottom: 12px;
+    padding-top: 4em;
+    max-width: 1000px;
+    margin: 0 auto;
+
+  }
+  p {
+    text-align: center;
+    margin-top: 0px;
+  }
+  .intro {
+    width: 75%;
+    margin: 0 auto;
+    margin-top: 5em;
+    margin-bottom: 5em;
+    max-width: 1000px;
+
+  }
+}
+
+h2,
+aside {
+  width: 100%;
+  text-align: center;
+  background-color: $main-color;
+  margin: 0px;
+  padding: 1em;
+}
+
+.works {
+  @include flexy(flex, row, null, space-around);
+  flex-wrap: wrap;
+  flex-grow: 1;
+}
+
+footer {
+  background: linear-gradient(to right, #462A27, #7F4241, #462A27);
+  height: 75px;
+  @include flexy(flex, column, null, center);
+
+  p {
+   margin: 0px;
+   color: $white;
+   opacity: .7;
+  }
+}
+
+.empty-space {
+
+}

@@ -1,0 +1,58 @@
+
+.overlay {
+  display: none;
+  height: 100%;
+  width:100%;
+  background-color: rgba(28, 32, 43, .8);
+  position: fixed;
+  top: 0;
+  z-index: 100;
+  .child {
+    display: none;
+    width: 75%;
+    max-width: 500px;
+    margin: 0 auto;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    p, h3 {
+      text-align: center;
+    }
+    img {
+      display: block;
+      margin: 0 auto;
+      opacity: 1;
+    }
+  }
+}
+.close {
+  margin: 0 auto;
+  cursor: pointer;
+  padding: 5px;
+  width: fit-content;
+
+}
+.active {
+  display: block !important;
+}
+
+.arrow {
+  font-size: 3em;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  z-index: 200;
+
+  p {
+    cursor: pointer;
+    margin:0;
+  }
+}
+
+.left {
+  transform: translate(-700%, -450%);
+}
+.right {
+  transform: translate(600%, -450%);
+}

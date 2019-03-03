@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+}
+
+ul {
+  text-decoration: none;
+  list-style-type: none;
+}
+
+//stops elements from highlighting when double
+//clicking (for overlauy)
+html
+{
+  -webkit-tap-highlight-color:transparent;
+  -webkit-user-select: none; /* Chrome/Safari */
+-moz-user-select: none; /* Firefox */
+-ms-user-select: none; /* IE10+ */
+}

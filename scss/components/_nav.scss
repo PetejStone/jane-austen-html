@@ -1,0 +1,56 @@
+#nav-icon {
+  display: inline-block;
+  cursor: pointer;
+  @extend %center;
+  transform: translateY(50%) skewY(2deg);
+  position: absolute;
+  top: 1em;
+  right: 2em;
+}
+body {
+  margin: 0px;
+}
+header {
+  height: 15em;
+  @include mq(medium) {
+    height: 20em;
+  }
+  @include mq(large) {
+    height: 27em;
+  }
+  background-image: url("../images/header-img.jpg");
+  max-width: 100%;
+  background-size: cover;
+  background-position: center;
+
+  @include flexy(flex, column, null, center);
+  h1 {
+    text-align: center;
+    color: $white;
+    opacity: .6;
+    font-size: 3em;
+    @include mq(medium) {
+      font-size: 4em;
+    }
+    @include mq(large) {
+      font-size: 5em;
+    }
+  }
+}
+nav,
+footer {
+  background: linear-gradient(to right, #462A27, #7F4241, #462A27);
+  height: 3em;
+  @include flexy(flex, column, null, center);
+  ul {
+    @include flexy(flex, row, null, space-around);
+    padding-left: 0;
+    margin: 0px;
+    li a {
+      padding: 1em;
+      cursor: pointer;
+      color: $white;
+      opacity: .7;
+    }
+  }
+}

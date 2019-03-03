@@ -1,0 +1,84 @@
+@import url($font-url-google + " ");
+
+// * {
+//   font-family: helvetica;
+// }
+
+a {
+  @include link-reset($black,  'Cinzel');
+}
+
+
+p {
+  font-family: 'Crimson Text', serif;
+  color: #EADEA9;
+  
+  font-size: 1.2em;
+}
+
+h3 {
+  font-family: 'Cinzel', 'Amatic SC', helvetica;
+  color: #EADEA9;
+}
+
+header {
+  font-family: 'Great Vibes', cursive;
+}
+
+aside {
+  a,p {
+    font-family: 'Cinzel', 'Amatic SC', helvetica;
+    color: #EADEA9;
+    font-size: 12px;
+  }
+  a {
+    transition: all .3s;
+    font-style: italic;
+  }
+
+
+}
+.overlay {
+  p {
+    font-family: 'Crimson Text', serif;
+    color: #EADEA9;
+    line-height: 25px;
+    font-size: 1em;
+  }
+}
+p.close {
+  font-family: 'Cinzel', 'Amatic SC', helvetica;
+  font-style: italic;
+  font-size: 15px;
+
+}
+
+
+
+nav,
+footer {
+  ul li a {
+    font-family: 'Cinzel', 'Amatic SC', helvetica;
+    font-size: 12px;
+  }
+}
+
+h2 {
+  font-family: 'Cinzel', 'Amatic SC', helvetica;
+  color: #EADEA9;
+}
+
+.book p,
+.home p {
+  font-family: 'Cinzel', 'Amatic SC', helvetica;
+  color: #EADEA9;
+  font-size: 12px;
+}
+
+.intro p {
+  font-family: 'Crimson Text', serif;
+  color: #EADEA9;
+  font-size: 3vmax;
+
+
+}
