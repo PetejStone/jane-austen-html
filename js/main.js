@@ -97,7 +97,7 @@ for (let i=0; i < close.length; i++) {
 //phone js
 
 // overlay is displayed and content behind is locked from scrolling
-  worksImg[i].addEventListener('touch', ()=> {
+  worksImg[counter].addEventListener('touchmove', ()=> {
       counter = i;
       console.log(counter);
       if (counter === 5) {
@@ -120,12 +120,12 @@ for (let i=0; i < close.length; i++) {
 
 
 
-  }//end of workImg event listener
+  })//end of workImg event listener
 
-)}// end of for loop of workImg
+
 
 //right arrow functionality
-right.addEventListener('touch', ()=> {
+right.addEventListener('touchmove', ()=> {
   left.style.display = 'block'; //display left arrow
   child[counter].style.display = 'none';//current element disappears
   counter += 1;//add one to counter
@@ -141,7 +141,7 @@ right.addEventListener('touch', ()=> {
 })// end of right arrow function
 
 
-left.addEventListener('touch', ()=> {
+left.addEventListener('touchmove', ()=> {
   right.style.display = 'block'; // display right arrow
   child[counter].style.display = 'none';//current element disappears
   counter -= 1;//subtract one from counter
