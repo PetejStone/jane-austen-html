@@ -33,7 +33,7 @@ for (let i=0; i < worksImg.length; i++) {
       //don't display right arrow if last item
 
       overlay.style.display = 'block';
-      body.style.overflow = 'hidden';
+      //body.style.overflow = 'hidden';
       carousel[counter].style.display = 'block';
 
       //right arrow functionality
@@ -81,7 +81,7 @@ left.addEventListener('click', ()=> {
 //close button functionality
 for (let i=0; i < close.length; i++) {
   close[i].addEventListener('click', ()=> {
-    body.style.overflow = 'scroll';
+    //body.style.overflow = 'scroll';
     carousel[i].style.display = 'none';
     child[i].style.display = 'none';
     overlay.style.display = 'none';
@@ -113,7 +113,7 @@ for (let i=0; i < close.length; i++) {
       //don't display right arrow if last item
 
       overlay.style.display = 'block';
-      body.style.overflow = 'hidden';
+    //  body.style.overflow = 'hidden';
       carousel[counter].style.display = 'block';
 
       //right arrow functionality
@@ -161,7 +161,7 @@ left.addEventListener('touchmove', ()=> {
 //close button functionality
 for (let i=0; i < close.length; i++) {
   close[i].addEventListener('touch', ()=> {
-    body.style.overflow = 'scroll';
+  //  body.style.overflow = 'scroll';
     carousel[i].style.display = 'none';
     child[i].style.display = 'none';
     overlay.style.display = 'none';
