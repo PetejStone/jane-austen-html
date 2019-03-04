@@ -13,12 +13,14 @@
     width: 75%;
     max-width: 500px;
     margin: 0 auto;
-    position: fixed;
-    top: 50%;
-    left: 50%;
+    position: relative;
+    //top: 50%;
+    //left: 50%;
     overflow-y: scroll !important;
-    transform: translate(-50%, -50%);
+    //transform: translate(-50%, -50%);
     z-index: 500;
+    padding-top: 2em;
+    padding-bottom: 2em;
     p, h3 {
       text-align: center;
     }
