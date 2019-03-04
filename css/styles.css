@@ -676,7 +676,7 @@ footer ul li:hover {
 
 .arrow {
   font-size: 3em;
-  position: fixed;
+  position: absolute;
   top: 50%;
   left: 50%;
   z-index: 2000; }
@@ -685,9 +685,9 @@ footer ul li:hover {
     margin: 0; }
 
 .left {
-  transform: translate(-700%, -450%); }
+  transform: translate(-780%, -170%); }
 
 .right {
-  transform: translate(600%, -450%); }
+  transform: translate(700%, -170%); }
 
 /*# sourceMappingURL=styles.css.map */
