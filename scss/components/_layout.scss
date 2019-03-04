@@ -75,6 +75,7 @@ aside {
   @include flexy(flex, row, null, space-around);
   flex-wrap: wrap;
   flex-grow: 1;
+  overflow-y: hidden;
 }
 
 footer {
