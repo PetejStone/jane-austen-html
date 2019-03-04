@@ -17,6 +17,7 @@
     left: 50%;
     overflow-y: scroll;
     transform: translate(-50%, -50%);
+    z-index: 500;
     p, h3 {
       text-align: center;
     }
