@@ -417,7 +417,7 @@ body {
 
 header {
   height: 15em;
-  background-image: url("../images/header-img.jpg");
+  background-image: url("../images/bookshelf.jpg");
   max-width: 100%;
   background-size: cover;
   background-position: center;
@@ -582,7 +582,7 @@ aside {
   overflow-y: hidden; }
 
 footer {
-  background: linear-gradient(to right, #462A27, #7F4241, #462A27);
+  background: linear-gradient(to right, #462a27, #7f4241, #462a27);
   height: 75px;
   display: flex;
   flex-direction: column;
@@ -590,7 +590,13 @@ footer {
   footer p {
     margin: 0px;
     color: #fff;
-    opacity: .7; }
+    opacity: 0.7; }
+
+.carousel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
 
 .bar1, .bar2, .bar3 {
   width: 35px;

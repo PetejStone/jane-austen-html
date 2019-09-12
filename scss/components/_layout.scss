@@ -1,12 +1,9 @@
-
 body,
 html {
   width: 100%;
   background-color: $main-color;
   @include flexy(flex, column, null);
-
 }
-
 
 // main {
 //   background-color: $main-color;
@@ -21,7 +18,6 @@ html {
     text-align: center;
   }
 }
-
 
 .about {
   width: 90%;
@@ -46,7 +42,6 @@ html {
     padding-top: 4em;
     max-width: 1000px;
     margin: 0 auto;
-
   }
   p {
     text-align: center;
@@ -58,7 +53,6 @@ html {
     margin-top: 5em;
     margin-bottom: 5em;
     max-width: 1000px;
-
   }
 }
 
@@ -79,17 +73,23 @@ aside {
 }
 
 footer {
-  background: linear-gradient(to right, #462A27, #7F4241, #462A27);
+  background: linear-gradient(to right, #462a27, #7f4241, #462a27);
   height: 75px;
   @include flexy(flex, column, null, center);
 
   p {
-   margin: 0px;
-   color: $white;
-   opacity: .7;
+    margin: 0px;
+    color: $white;
+    opacity: 0.7;
   }
 }
 
 .empty-space {
+}
 
+.carousel {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
 }
