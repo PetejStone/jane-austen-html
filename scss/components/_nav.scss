@@ -18,7 +18,7 @@ header {
   @include mq(large) {
     height: 27em;
   }
-  background-image: url("../images/bookshelf.jpg");
+  background-image: url("../images/header-img.jpg");
   max-width: 100%;
   background-size: cover;
   background-position: center;
@@ -27,7 +27,7 @@ header {
   h1 {
     text-align: center;
     color: $white;
-    opacity: .6;
+    opacity: 0.6;
     font-size: 3em;
     @include mq(medium) {
       font-size: 4em;
@@ -39,7 +39,7 @@ header {
 }
 nav,
 footer {
-  background: linear-gradient(to right, #462A27, #7F4241, #462A27);
+  background: linear-gradient(to right, #462a27, #7f4241, #462a27);
   height: 3em;
   @include flexy(flex, column, null, center);
   ul {
@@ -50,7 +50,7 @@ footer {
       padding: 1em;
       cursor: pointer;
       color: $white;
-      opacity: .7;
+      opacity: 0.7;
     }
   }
 }

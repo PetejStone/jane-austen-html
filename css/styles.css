@@ -417,7 +417,7 @@ body {
 
 header {
   height: 15em;
-  background-image: url("../images/bookshelf.jpg");
+  background-image: url("../images/header-img.jpg");
   max-width: 100%;
   background-size: cover;
   background-position: center;
@@ -433,7 +433,7 @@ header {
   header h1 {
     text-align: center;
     color: #fff;
-    opacity: .6;
+    opacity: 0.6;
     font-size: 3em; }
     @media (min-width: 750px) {
       header h1 {
@@ -444,7 +444,7 @@ header {
 
 nav,
 footer {
-  background: linear-gradient(to right, #462A27, #7F4241, #462A27);
+  background: linear-gradient(to right, #462a27, #7f4241, #462a27);
   height: 3em;
   display: flex;
   flex-direction: column;
@@ -461,7 +461,7 @@ footer {
       padding: 1em;
       cursor: pointer;
       color: #fff;
-      opacity: .7; }
+      opacity: 0.7; }
 
 a {
   text-decoration: none;
